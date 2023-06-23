@@ -21,7 +21,6 @@ public class CSVWriter {
                 }
             };
 
-            //list.sort(Map.Entry.comparingByValue(comparator));
             list.sort(comparator);
             for (var elem : list) {
                 float frequency = (float)elem.getValue() / stats.getGeneralCount();
